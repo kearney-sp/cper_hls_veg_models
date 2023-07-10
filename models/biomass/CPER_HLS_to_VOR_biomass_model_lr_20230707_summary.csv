@@ -1,0 +1,31 @@
+                        OLS Regression Results                        
+Dep. Variable:   ,np.log(Biomass_kg_ha),  R-squared:         ,   0.640
+Model:           ,OLS                  ,  Adj. R-squared:    ,   0.639
+Method:          ,Least Squares        ,  F-statistic:       ,   582.4
+Date:            ,Fri, 07 Jul 2023     ,  Prob (F-statistic):,  0.00  
+Time:            ,12:50:57             ,  Log-Likelihood:    , -1001.4
+No. Observations:,  3292               ,  AIC:               ,   2025.
+Df Residuals:    ,  3281               ,  BIC:               ,   2092.
+Df Model:        ,    10               ,                     ,        
+Covariance Type: ,nonrobust            ,                     ,        
+             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept    ,   10.1522,    2.871,    3.536, 0.000,    4.522,   15.782
+ndti         ,   31.3652,    9.951,    3.152, 0.002,   11.854,   50.876
+satvi        ,   22.0187,   11.413,    1.929, 0.054,   -0.359,   44.396
+nir          ,   -0.0013,    0.000,   -3.162, 0.002,   -0.002,   -0.000
+bai_346      ,   -0.0552,    0.014,   -4.081, 0.000,   -0.082,   -0.029
+ndti:satvi   , -134.9797,   18.049,   -7.479, 0.000, -170.368,  -99.591
+ndti:nir     ,    0.0004,    0.001,    0.261, 0.794,   -0.002,    0.003
+ndti:bai_346 ,    0.0303,    0.035,    0.864, 0.388,   -0.038,    0.099
+satvi:nir    ,   -0.0036,    0.001,   -3.194, 0.001,   -0.006,   -0.001
+satvi:bai_346,    0.0225,    0.053,    0.421, 0.674,   -0.082,    0.127
+nir:bai_346  , 7.748e-06, 1.71e-06,    4.534, 0.000,  4.4e-06, 1.11e-05
+Omnibus:      ,79.511,  Durbin-Watson:     ,   1.448
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  , 182.844
+Skew:         ,-0.020,  Prob(JB):          ,1.98e-40
+Kurtosis:     , 4.154,  Cond. No.          ,1.22e+09
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.22e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.
