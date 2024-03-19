@@ -130,6 +130,9 @@ dmypy.json
 
 # potentially large files
 *core.*
+*.tif
+*.nc
+*.gif
 
 # directories with large files
 data/raw_tmp/
