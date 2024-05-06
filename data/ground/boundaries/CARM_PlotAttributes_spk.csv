@@ -1,0 +1,133 @@
+PastureCode,Block,Treatment,Plot,Ecosite,Spatial
+10S,1,AGM,1,Loamy,5
+10S,1,AGM,2,Loamy,5
+10S,1,AGM,3,Loamy,5
+10S,1,AGM,4,Loamy,5
+15E,1,TGM,1,Loamy,5
+15E,1,TGM,2,Loamy,5
+15E,1,TGM,3,Loamy,5
+15E,1,TGM,4,Loamy,5
+21N,2,AGM,1,Loamy,5
+21N,2,AGM,2,Loamy,5
+21N,2,AGM,3,Loamy,5
+21N,2,AGM,4,Loamy,5
+24W,2,TGM,1,Loamy,4
+24W,2,TGM,2,Loamy,4
+24W,2,TGM,3,Loamy,4
+24W,2,TGM,4,Loamy,4
+26W,3,AGM,1,Loamy,4
+26W,3,AGM,2,Loamy,4
+26W,3,AGM,3,Loamy,4
+26W,3,AGM,4,Loamy,4
+26E,3,TGM,1,Loamy,4
+26E,3,TGM,2,Loamy,4
+26E,3,TGM,3,Loamy,4
+26E,3,TGM,4,Loamy,4
+25NW,4,AGM,1,Loamy,4
+25NW,4,AGM,2,Loamy,4
+25NW,4,AGM,3,Loamy,4
+25NW,4,AGM,4,Loamy,4
+25SE,4,TGM,1,Loamy,4
+25SE,4,TGM,2,Loamy,4
+25SE,4,TGM,3,Loamy,4
+25SE,4,TGM,4,Loamy,4
+31W,5,AGM,1,Loamy,3
+31W,5,AGM,2,Loamy,3
+31W,5,AGM,3,Loamy,3
+31W,5,AGM,4,Sandy,3
+31E,5,TGM,1,Loamy,3
+31E,5,TGM,2,Loamy,3
+31E,5,TGM,3,Loamy,3
+31E,5,TGM,4,Sandy,3
+18S,6,AGM,1,Sandy,2
+18S,6,AGM,2,Sandy,2
+18S,6,AGM,3,Sandy,2
+18S,6,AGM,4,Sandy,2
+18S,6,AGM,5,Sandy,2
+18S,6,AGM,6,Sandy,2
+19N,6,TGM,1,Sandy,2
+19N,6,TGM,2,Sandy,2
+19N,6,TGM,3,Sandy,2
+19N,6,TGM,4,Sandy,2
+19N,6,TGM,5,Sandy,2
+19N,6,TGM,6,Sandy,2
+7SE,7,AGM,1,Loamy,1
+7SE,7,AGM,2,Loamy,1
+7SE,7,AGM,3,Loamy,1
+7SE,7,AGM,4,Sandy,1
+7SE,7,AGM,5,Salt Flats,1
+7SE,7,AGM,6,Salt Flats,1
+7NW,7,TGM,1,Loamy,1
+7NW,7,TGM,2,Loamy,1
+7NW,7,TGM,3,Sandy,1
+7NW,7,TGM,4,Loamy,1
+7NW,7,TGM,5,Salt Flats,1
+7NW,7,TGM,6,Salt Flats,1
+8E,8,AGM,1,Loamy,1
+8E,8,AGM,2,Sandy,1
+8E,8,AGM,3,Loamy,1
+8E,8,AGM,4,Sandy,1
+5E,8,TGM,1,Loamy,1
+5E,8,TGM,2,Sandy,1
+5E,8,TGM,3,Loamy,1
+5E,8,TGM,4,Sandy,1
+17S,9,AGM,1,Loamy,2
+17S,9,AGM,2,Loamy,2
+17S,9,AGM,3,Salt Flats,2
+17S,9,AGM,4,Salt Flats,2
+17S,9,AGM,5,Sandy,2
+17S,9,AGM,6,Sandy,2
+17N,9,TGM,1,Loamy,2
+17N,9,TGM,2,Loamy,2
+17N,9,TGM,3,Salt Flats,2
+17N,9,TGM,4,Salt Flats,2
+17N,9,TGM,5,Sandy,2
+17N,9,TGM,6,Sandy,2
+20NW,10,AGM,1,Sandy,2
+20NW,10,AGM,2,Sandy,2
+20NW,10,AGM,3,Sandy,2
+20NW,10,AGM,4,Sandy,2
+20NW,10,AGM,5,Salt Flats,2
+20NW,10,AGM,6,Salt Flats,2
+20SE,10,TGM,1,Sandy,2
+20SE,10,TGM,2,Sandy,2
+20SE,10,TGM,3,Sandy,2
+20SE,10,TGM,4,Salt Flats,2
+20SE,10,TGM,5,Salt Flats,2
+20SE,10,TGM,6,Sandy,2
+23E,2,LT_HVY,1,Loamy,4
+23E,2,LT_HVY,2,Loamy,4
+23E,2,LT_HVY,3,Loamy,4
+23E,2,LT_HVY,4,Loamy,4
+1W,8,NEW_HVY,1,Loamy,1
+1W,8,NEW_HVY,2,Loamy,1
+1W,8,NEW_HVY,3,Loamy,1
+1W,8,NEW_HVY,4,Loamy,1
+28N,1,NEW_HVY,1,Loamy,5
+28N,1,NEW_HVY,2,Loamy,5
+28N,1,NEW_HVY,3,Loamy,5
+28N,1,NEW_HVY,4,Loamy,5
+32W,5,NEW_HVY,1,Loamy,3
+32W,5,NEW_HVY,2,Loamy,3
+32W,5,NEW_HVY,3,Loamy,3
+32W,5,NEW_HVY,4,Loamy,3
+22E,,PrDog,1,Overflow,5
+22E,,PrDog,2,Overflow,5
+22E,,PrDog,3,Loamy,5
+22E,,PrDog,4,Loamy,5
+22W,,PrDog,1,Loamy,5
+22W,,PrDog,2,Loamy,5
+22W,,PrDog,3,Loamy,5
+22W,,PrDog,4,Loamy,5
+2930,,PrDog,1,Sandy,3
+2930,,PrDog,2,Sandy,3
+2930,,PrDog,3,Sandy,3
+2930,,PrDog,4,Sandy,3
+5W,,PrDog,1,Overflow,1
+5W,,PrDog,2,Overflow,1
+5W,,PrDog,3,Overflow,1
+5W,,PrDog,4,Overflow,1
+CN,,PrDog,1,Loamy,5
+CN,,PrDog,2,Loamy,5
+CN,,PrDog,3,Loamy,5
+CN,,PrDog,4,Loamy,5

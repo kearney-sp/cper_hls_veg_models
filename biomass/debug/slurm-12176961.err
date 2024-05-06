@@ -1,0 +1,16 @@
+2024-04-10 11:17:01,355 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.8.119:36555'
+2024-04-10 11:17:26,100 - distributed.worker - INFO -       Start worker at:     tcp://10.1.8.119:42421
+2024-04-10 11:17:26,104 - distributed.worker - INFO -          Listening to:     tcp://10.1.8.119:42421
+2024-04-10 11:17:26,109 - distributed.worker - INFO -           Worker name:            SLURMCluster-12
+2024-04-10 11:17:26,113 - distributed.worker - INFO -          dashboard at:           10.1.8.119:40267
+2024-04-10 11:17:26,118 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.8.115:35039
+2024-04-10 11:17:26,121 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:17:26,124 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:17:26,130 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:17:26,135 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12176961/dask-scratch-space/worker-53y1ipvg
+2024-04-10 11:17:26,139 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:17:36,629 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:17:36,634 - distributed.worker - INFO -         Registered to:     tcp://10.1.8.115:35039
+2024-04-10 11:17:36,638 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:17:36,642 - distributed.core - INFO - Starting established connection to tcp://10.1.8.115:35039
+slurmstepd: error: *** JOB 12176961 ON ceres18-compute-9 CANCELLED AT 2024-04-10T11:20:39 ***

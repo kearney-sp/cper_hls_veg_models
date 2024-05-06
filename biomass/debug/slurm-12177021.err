@@ -1,0 +1,153 @@
+2024-04-10 11:30:19,855 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.9.192:38027'
+2024-04-10 11:30:49,626 - distributed.worker - INFO -       Start worker at:     tcp://10.1.9.192:36323
+2024-04-10 11:30:49,632 - distributed.worker - INFO -          Listening to:     tcp://10.1.9.192:36323
+2024-04-10 11:30:49,636 - distributed.worker - INFO -           Worker name:            SLURMCluster-27
+2024-04-10 11:30:49,643 - distributed.worker - INFO -          dashboard at:           10.1.9.192:42257
+2024-04-10 11:30:49,649 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.8.115:34365
+2024-04-10 11:30:49,653 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:30:49,657 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:30:49,663 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:30:49,668 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12177021/dask-scratch-space/worker-gqqq528x
+2024-04-10 11:30:49,674 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:31:03,029 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:31:03,035 - distributed.worker - INFO -         Registered to:     tcp://10.1.8.115:34365
+2024-04-10 11:31:03,038 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:31:03,043 - distributed.core - INFO - Starting established connection to tcp://10.1.8.115:34365
+2024-04-10 11:33:26,021 - distributed.core - INFO - Event loop was unresponsive in Worker for 13.96s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-04-10 11:33:47,572 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-ffad90fdbdb184da1904276b7c1809b1', 3, 4)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.41396236, -1.20858475,  0.38085947, ...,  1.40572812,
+         1.06293146, -0.45277347],
+       [ 2.09493674, -0.60348987,  2.46432544, ..., -0.73830429,
+        -1.10283997, -1.5863023 ],
+       [ 1.02582935, -0.0215983 ,  1.22788804, ..., -1.01060322,
+        -1.10938758, -1.15577952],
+       ...,
+       [-0.73411465,  1.77910533,  0.5842098 , ..., -0.31675252,
+        -0.4272745 , -0.29052363],
+       [-0.47911279,  1.45854044,  0.6212838 , ..., -0.15155855,
+        -0.30765794, -0.13832555],
+       [-0.73658858,  1.64721406,  0.46995448, ...,  0.01701722,
+        -0.13370394,  0.02761326]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128eb1550>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:33:47,578 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-ffad90fdbdb184da1904276b7c1809b1', 26, 6)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.35966269, -1.26619768,  0.39919204, ...,  1.43803811,
+         1.10445687, -0.45372782],
+       [ 2.02057951, -0.60344374,  2.48172888, ..., -0.68978599,
+        -1.0730529 , -1.58631654],
+       [ 0.98296183,  0.03389586,  1.24584287, ..., -0.96002642,
+        -1.07963601, -1.15615082],
+       ...,
+       [-0.72514445,  2.00618725,  0.60245169, ..., -0.27142103,
+        -0.39382592, -0.29161254],
+       [-0.47765347,  1.65507597,  0.63950916, ..., -0.10747589,
+        -0.27356104, -0.13954069],
+       [-0.72754551,  1.86172816,  0.48824732, ...,  0.0598255 ,
+        -0.09866422,  0.0262605 ]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128eb1550>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:34:50,577 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-f0d05bbcf1cbcdc42b3160481b747092', 0, 5)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.27499663, -1.20534121,  0.28280323, ...,  1.56613211,
+         1.30363373, -0.3440995 ],
+       [ 1.94472528, -0.60357778,  2.5004271 , ..., -0.66885818,
+        -1.07882234, -1.69067899],
+       [ 0.89327331, -0.02488991,  1.1843734 , ..., -0.95270905,
+        -1.08602505, -1.17923797],
+       ...,
+       [-0.8376067 ,  1.76589964,  0.49924763, ..., -0.2294226 ,
+        -0.3356668 , -0.15135424],
+       [-0.58681598,  1.44709968,  0.53870889, ..., -0.05722049,
+        -0.20408265,  0.02944999],
+       [-0.84003977,  1.63473453,  0.37763521, ...,  0.1185069 ,
+        -0.01272461,  0.22657758]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128e53b80>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:34:50,621 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-f0d05bbcf1cbcdc42b3160481b747092', 12, 5)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.27499663, -1.20534121,  0.28280323, ...,  1.56613211,
+         1.30363373, -0.3440995 ],
+       [ 1.94472528, -0.60357778,  2.5004271 , ..., -0.66885818,
+        -1.07882234, -1.69067899],
+       [ 0.89327331, -0.02488991,  1.1843734 , ..., -0.95270905,
+        -1.08602505, -1.17923797],
+       ...,
+       [-0.8376067 ,  1.76589964,  0.49924763, ..., -0.2294226 ,
+        -0.3356668 , -0.15135424],
+       [-0.58681598,  1.44709968,  0.53870889, ..., -0.05722049,
+        -0.20408265,  0.02944999],
+       [-0.84003977,  1.63473453,  0.37763521, ...,  0.1185069 ,
+        -0.01272461,  0.22657758]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128e53b80>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:34:50,712 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-f0d05bbcf1cbcdc42b3160481b747092', 28, 3)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.37228388, -1.15684771,  0.40289117, ...,  1.31835935,
+         0.98988828, -0.5057341 ],
+       [ 2.04459575, -0.55374162,  2.50158603, ..., -0.83095765,
+        -1.19392924, -1.64399679],
+       [ 0.98908822,  0.02623741,  1.25611101, ..., -1.10392774,
+        -1.20053142, -1.21167606],
+       ...,
+       [-0.74846797,  1.82102257,  0.60772787, ..., -0.40836684,
+        -0.51273469, -0.34280667],
+       [-0.49670993,  1.5015113 ,  0.64507286, ..., -0.2427657 ,
+        -0.39212144, -0.18997298],
+       [-0.75091043,  1.6895648 ,  0.49263741, ..., -0.07377443,
+        -0.21671798, -0.02334117]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128e53b80>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:34:50,875 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-f0d05bbcf1cbcdc42b3160481b747092', 17, 7)
+Function:  execute_task
+args:      ((<function fit at 0x14d128ea4040>, Lasso(), array([[ 1.27200977, -1.21908916,  0.29753099, ...,  1.54099271,
+         1.24575022, -0.3944757 ],
+       [ 1.92909033, -0.61346959,  2.49940162, ..., -0.71972513,
+        -1.11501132, -1.63609455],
+       [ 0.89749545, -0.03107346,  1.19269671, ..., -1.00684349,
+        -1.12214844, -1.16451837],
+       ...,
+       [-0.8006962 ,  1.77119159,  0.51243785, ..., -0.2752311 ,
+        -0.37862292, -0.21675419],
+       [-0.55464177,  1.45034873,  0.55161878, ..., -0.10104672,
+        -0.24823696, -0.05004294],
+       [-0.80308333,  1.63918595,  0.39168932, ...,  0.07670351,
+        -0.05862142,  0.13171932]]), (<function cv_extract at 0x14d128e9cc10>, <dask_ml.model_selection.methods.CVCache object at 0x14d128e53b80>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+/project/cper_neon_aop/conda_envs/py_ml_env/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.638e+03, tolerance: 5.416e+01
+  model = cd_fast.enet_coordinate_descent(
+/project/cper_neon_aop/conda_envs/py_ml_env/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.022e+04, tolerance: 5.416e+01
+  model = cd_fast.enet_coordinate_descent(
+slurmstepd: error: *** JOB 12177021 ON ceres20-compute-9 CANCELLED AT 2024-04-10T11:36:19 ***

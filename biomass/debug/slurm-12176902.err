@@ -1,0 +1,61 @@
+2024-04-10 11:10:10,093 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.4.117:32805'
+2024-04-10 11:10:10,315 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.4.117:42551'
+2024-04-10 11:10:10,325 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.4.117:46431'
+2024-04-10 11:10:10,331 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.4.117:34593'
+2024-04-10 11:11:14,836 - distributed.worker - INFO -       Start worker at:     tcp://10.1.4.117:43951
+2024-04-10 11:11:14,840 - distributed.worker - INFO -          Listening to:     tcp://10.1.4.117:43951
+2024-04-10 11:11:14,858 - distributed.worker - INFO -           Worker name:          SLURMCluster-13-1
+2024-04-10 11:11:14,866 - distributed.worker - INFO -          dashboard at:           10.1.4.117:41147
+2024-04-10 11:11:14,874 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:14,889 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:14,893 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:11:14,904 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:11:14,919 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12176902/dask-scratch-space/worker-9l5kd47b
+2024-04-10 11:11:14,929 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:16,620 - distributed.worker - INFO -       Start worker at:     tcp://10.1.4.117:39983
+2024-04-10 11:11:16,624 - distributed.worker - INFO -          Listening to:     tcp://10.1.4.117:39983
+2024-04-10 11:11:16,632 - distributed.worker - INFO -           Worker name:          SLURMCluster-13-2
+2024-04-10 11:11:16,641 - distributed.worker - INFO -          dashboard at:           10.1.4.117:46385
+2024-04-10 11:11:16,655 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:16,661 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:16,668 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:11:16,674 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:11:16,681 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12176902/dask-scratch-space/worker-6rjpxghr
+2024-04-10 11:11:16,688 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:17,208 - distributed.worker - INFO -       Start worker at:     tcp://10.1.4.117:38987
+2024-04-10 11:11:17,213 - distributed.worker - INFO -          Listening to:     tcp://10.1.4.117:38987
+2024-04-10 11:11:17,218 - distributed.worker - INFO -       Start worker at:     tcp://10.1.4.117:36933
+2024-04-10 11:11:17,223 - distributed.worker - INFO -           Worker name:          SLURMCluster-13-0
+2024-04-10 11:11:17,227 - distributed.worker - INFO -          Listening to:     tcp://10.1.4.117:36933
+2024-04-10 11:11:17,230 - distributed.worker - INFO -          dashboard at:           10.1.4.117:33767
+2024-04-10 11:11:17,231 - distributed.worker - INFO -           Worker name:          SLURMCluster-13-3
+2024-04-10 11:11:17,232 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:17,233 - distributed.worker - INFO -          dashboard at:           10.1.4.117:44089
+2024-04-10 11:11:17,234 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:17,235 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:17,237 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:11:17,239 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:17,264 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:11:17,271 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:11:17,278 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12176902/dask-scratch-space/worker-m7yskzng
+2024-04-10 11:11:17,285 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:11:17,293 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:17,298 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12176902/dask-scratch-space/worker-zr6k50x4
+2024-04-10 11:11:17,312 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:37,320 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:11:37,326 - distributed.worker - INFO -         Registered to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:37,330 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:37,334 - distributed.core - INFO - Starting established connection to tcp://10.1.4.115:40519
+2024-04-10 11:11:37,439 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:11:37,444 - distributed.worker - INFO -         Registered to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:37,448 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:37,451 - distributed.core - INFO - Starting established connection to tcp://10.1.4.115:40519
+2024-04-10 11:11:37,762 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:11:37,768 - distributed.worker - INFO -         Registered to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:37,772 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:37,775 - distributed.core - INFO - Starting established connection to tcp://10.1.4.115:40519
+2024-04-10 11:11:37,988 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:11:37,993 - distributed.worker - INFO -         Registered to:     tcp://10.1.4.115:40519
+2024-04-10 11:11:37,997 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:11:38,001 - distributed.core - INFO - Starting established connection to tcp://10.1.4.115:40519
+slurmstepd: error: *** JOB 12176902 ON ceres18-compute-7 CANCELLED AT 2024-04-10T11:11:53 ***

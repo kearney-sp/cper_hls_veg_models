@@ -1,0 +1,57 @@
+2024-04-05 16:18:52,800 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.5.124:45739'
+2024-04-05 16:18:52,922 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.5.124:45155'
+2024-04-05 16:18:52,935 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.5.124:33945'
+2024-04-05 16:18:52,938 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.5.124:44737'
+2024-04-05 16:19:38,016 - distributed.worker - INFO -       Start worker at:     tcp://10.1.5.124:41459
+2024-04-05 16:19:38,020 - distributed.worker - INFO -          Listening to:     tcp://10.1.5.124:41459
+2024-04-05 16:19:38,032 - distributed.worker - INFO -           Worker name:           SLURMCluster-2-0
+2024-04-05 16:19:38,035 - distributed.worker - INFO -          dashboard at:           10.1.5.124:40103
+2024-04-05 16:19:38,051 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,055 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,066 - distributed.worker - INFO -               Threads:                          2
+2024-04-05 16:19:38,079 - distributed.worker - INFO -                Memory:                   4.66 GiB
+2024-04-05 16:19:38,087 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12171684/dask-worker-space/worker-uyo3zzq9
+2024-04-05 16:19:38,093 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,180 - distributed.worker - INFO -         Registered to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,191 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,195 - distributed.core - INFO - Starting established connection to tcp://10.1.5.190:38955
+2024-04-05 16:19:38,431 - distributed.worker - INFO -       Start worker at:     tcp://10.1.5.124:35741
+2024-04-05 16:19:38,436 - distributed.worker - INFO -          Listening to:     tcp://10.1.5.124:35741
+2024-04-05 16:19:38,447 - distributed.worker - INFO -           Worker name:           SLURMCluster-2-1
+2024-04-05 16:19:38,451 - distributed.worker - INFO -          dashboard at:           10.1.5.124:46571
+2024-04-05 16:19:38,454 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,458 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,471 - distributed.worker - INFO -               Threads:                          2
+2024-04-05 16:19:38,474 - distributed.worker - INFO -                Memory:                   4.66 GiB
+2024-04-05 16:19:38,480 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12171684/dask-worker-space/worker-hvjmyfn5
+2024-04-05 16:19:38,483 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,516 - distributed.worker - INFO -       Start worker at:     tcp://10.1.5.124:36179
+2024-04-05 16:19:38,521 - distributed.worker - INFO -          Listening to:     tcp://10.1.5.124:36179
+2024-04-05 16:19:38,527 - distributed.worker - INFO -           Worker name:           SLURMCluster-2-2
+2024-04-05 16:19:38,531 - distributed.worker - INFO -          dashboard at:           10.1.5.124:45483
+2024-04-05 16:19:38,538 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,543 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,545 - distributed.worker - INFO -               Threads:                          2
+2024-04-05 16:19:38,550 - distributed.worker - INFO -                Memory:                   4.66 GiB
+2024-04-05 16:19:38,553 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12171684/dask-worker-space/worker-6olkwjoc
+2024-04-05 16:19:38,556 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,559 - distributed.worker - INFO -         Registered to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,568 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,572 - distributed.core - INFO - Starting established connection to tcp://10.1.5.190:38955
+2024-04-05 16:19:38,636 - distributed.worker - INFO -         Registered to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,648 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,652 - distributed.core - INFO - Starting established connection to tcp://10.1.5.190:38955
+2024-04-05 16:19:38,855 - distributed.worker - INFO -       Start worker at:     tcp://10.1.5.124:42345
+2024-04-05 16:19:38,860 - distributed.worker - INFO -          Listening to:     tcp://10.1.5.124:42345
+2024-04-05 16:19:38,865 - distributed.worker - INFO -           Worker name:           SLURMCluster-2-3
+2024-04-05 16:19:38,868 - distributed.worker - INFO -          dashboard at:           10.1.5.124:33829
+2024-04-05 16:19:38,878 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,882 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,887 - distributed.worker - INFO -               Threads:                          2
+2024-04-05 16:19:38,890 - distributed.worker - INFO -                Memory:                   4.66 GiB
+2024-04-05 16:19:38,893 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12171684/dask-worker-space/worker-09r66sh9
+2024-04-05 16:19:38,903 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,968 - distributed.worker - INFO -         Registered to:     tcp://10.1.5.190:38955
+2024-04-05 16:19:38,983 - distributed.worker - INFO - -------------------------------------------------
+2024-04-05 16:19:38,989 - distributed.core - INFO - Starting established connection to tcp://10.1.5.190:38955
+slurmstepd: error: *** JOB 12171684 ON ceres19-compute-24 CANCELLED AT 2024-04-05T16:30:05 ***

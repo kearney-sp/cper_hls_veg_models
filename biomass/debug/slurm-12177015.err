@@ -1,0 +1,61 @@
+2024-04-10 11:30:20,529 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.1.9.192:40445'
+2024-04-10 11:30:51,159 - distributed.worker - INFO -       Start worker at:     tcp://10.1.9.192:34171
+2024-04-10 11:30:51,164 - distributed.worker - INFO -          Listening to:     tcp://10.1.9.192:34171
+2024-04-10 11:30:51,168 - distributed.worker - INFO -           Worker name:             SLURMCluster-2
+2024-04-10 11:30:51,176 - distributed.worker - INFO -          dashboard at:           10.1.9.192:46599
+2024-04-10 11:30:51,182 - distributed.worker - INFO - Waiting to connect to:     tcp://10.1.8.115:34365
+2024-04-10 11:30:51,186 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:30:51,193 - distributed.worker - INFO -               Threads:                          2
+2024-04-10 11:30:51,197 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2024-04-10 11:30:51,202 - distributed.worker - INFO -       Local Directory: /local/bgfs/sean.kearney/12177015/dask-scratch-space/worker-afuvvpmz
+2024-04-10 11:30:51,207 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:31:03,178 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-04-10 11:31:03,183 - distributed.worker - INFO -         Registered to:     tcp://10.1.8.115:34365
+2024-04-10 11:31:03,188 - distributed.worker - INFO - -------------------------------------------------
+2024-04-10 11:31:03,194 - distributed.core - INFO - Starting established connection to tcp://10.1.8.115:34365
+2024-04-10 11:33:26,169 - distributed.core - INFO - Event loop was unresponsive in Worker for 14.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-04-10 11:33:47,704 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-ffad90fdbdb184da1904276b7c1809b1', 8, 4)
+Function:  execute_task
+args:      ((<function fit at 0x15084b21b160>, Lasso(), array([[ 1.41396236, -1.20858475,  0.38085947, ...,  1.40572812,
+         1.06293146, -0.45277347],
+       [ 2.09493674, -0.60348987,  2.46432544, ..., -0.73830429,
+        -1.10283997, -1.5863023 ],
+       [ 1.02582935, -0.0215983 ,  1.22788804, ..., -1.01060322,
+        -1.10938758, -1.15577952],
+       ...,
+       [-0.73411465,  1.77910533,  0.5842098 , ..., -0.31675252,
+        -0.4272745 , -0.29052363],
+       [-0.47911279,  1.45854044,  0.6212838 , ..., -0.15155855,
+        -0.30765794, -0.13832555],
+       [-0.73658858,  1.64721406,  0.46995448, ...,  0.01701722,
+        -0.13370394,  0.02761326]]), (<function cv_extract at 0x15084b216d30>, <dask_ml.model_selection.methods.CVCache object at 0x15084b21ee20>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+2024-04-10 11:33:47,710 - distributed.worker - WARNING - Compute Failed
+Key:       ('lasso-fit-ffad90fdbdb184da1904276b7c1809b1', 23, 4)
+Function:  execute_task
+args:      ((<function fit at 0x15084b21b160>, Lasso(), array([[ 1.41396236, -1.20858475,  0.38085947, ...,  1.40572812,
+         1.06293146, -0.45277347],
+       [ 2.09493674, -0.60348987,  2.46432544, ..., -0.73830429,
+        -1.10283997, -1.5863023 ],
+       [ 1.02582935, -0.0215983 ,  1.22788804, ..., -1.01060322,
+        -1.10938758, -1.15577952],
+       ...,
+       [-0.73411465,  1.77910533,  0.5842098 , ..., -0.31675252,
+        -0.4272745 , -0.29052363],
+       [-0.47911279,  1.45854044,  0.6212838 , ..., -0.15155855,
+        -0.30765794, -0.13832555],
+       [-0.73658858,  1.64721406,  0.46995448, ...,  0.01701722,
+        -0.13370394,  0.02761326]]), (<function cv_extract at 0x15084b216d30>, <dask_ml.model_selection.methods.CVCache object at 0x15084b21ee20>, array([[4.29108775e-01, 1.07832404e+01, 1.59597290e-01, ...,
+        1.09484185e+07, 7.96831851e+06, 7.75169721e+06],
+       [4.94188004e-01, 1.22574533e+01, 2.27465660e-01, ...,
+        6.84526644e+06, 4.35633914e+06, 4.73874471e+
+kwargs:    {}
+Exception: "ValueError('Input y contains NaN.')"
+
+slurmstepd: error: *** JOB 12177015 ON ceres20-compute-9 CANCELLED AT 2024-04-10T11:36:19 ***
