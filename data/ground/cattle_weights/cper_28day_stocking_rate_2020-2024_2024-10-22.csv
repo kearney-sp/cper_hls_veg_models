@@ -1,0 +1,21 @@
+"Year","Pasture","Treatment","type","Allocation.number","Season.on.date","Season.off.date","notes"
+2020,"23E","LTGI_HVY","yearling steers","34",2020-05-16,2020-10-02,NA
+2020,"23W","LTGI_LHT","yearling steers","17",2020-05-16,2020-10-02,NA
+2020,"15E","LTGI_MOD","yearling steers","23",2020-05-16,2020-10-02,"TRM"
+2020,"19N","TRM","yearling steers","26",2020-05-16,2020-10-02,"GZTX"
+2021,"15E","LTGI_MOD","yearling steers","20",2021-05-22,2021-10-01,"TRM"
+2021,"23W","LTGI_LHT","yearling steers","15",2021-05-22,2021-10-01,NA
+2021,"23E","LTGI_HVY","yearling steers","30",2021-05-22,2021-10-01,NA
+2021,"19N","TRM","yearling steers","24",2021-05-22,2021-10-01,"GZTX"
+2022,"15E","LTGI_MOD","yearling steers","23",2022-05-23,2022-07-30,"TRM"
+2022,"23W","LTGI_LHT","yearling steers","17",2022-05-23,2022-07-30,NA
+2022,"23E","LTGI_HVY","yearling steers","34",2022-05-23,2022-07-30,"Animals removed from 23E on 6/16/22 and moved to 13W due to drought conditions"
+2022,"19N","TRM","yearling steers","27",2022-05-23,2022-07-30,"GZTX"
+2023,"15E","LTGI_MOD","yearling steers","17",2023-05-19,2023-09-29,"TRM"
+2023,"19N","TRM","yearling steers","21",2023-05-19,2023-09-29,"GZTX"
+2023,"23E","LTGI_HVY","yearling steers","26",2023-05-19,2023-09-29,NA
+2023,"23W","LTGI_LHT","yearling steers","13",2023-05-19,2023-09-29,NA
+2024,"15E","LTGI_MOD","yearling steers","30",2024-05-17,2024-09-07,"TRM"
+2024,"19N","MOO","yearling steers","30",2024-05-17,2024-09-04,NA
+2024,"23E","LTGI_HVY","yearling steers","45",2024-05-17,2024-09-07,NA
+2024,"23W","LTGI_LHT","yearling steers","23",2024-05-17,2024-09-07,NA

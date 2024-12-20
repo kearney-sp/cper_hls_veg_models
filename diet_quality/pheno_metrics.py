@@ -85,7 +85,7 @@ def pheno_fq_metrics(ndvi_ts_mean, produce_ts=True, b_start=None, b_end=None):
     ndvi_int_ts = ndvi_int_calc(ndvi_ts_mean, ndvi_base, sos)
     ndvi_rate_ts = np.zeros_like(ndvi_int_ts)
 
-    # calculate rate of chagen
+    # calculate rate of change
     ndvi_rate_ts[sos:] = ndvi_int_ts[sos:] / (range(sos, ndvi_int_ts.shape[0]) - sos + 1)
 
     # calculate percent dry biomass estimate
@@ -109,13 +109,17 @@ def pheno_fq_metrics(ndvi_ts_mean, produce_ts=True, b_start=None, b_end=None):
                 'iNDVI_dry': ndvi_int_dry_ts,
                 'NDVI_rate': ndvi_rate_ts,
                 'iNDVI_dry_pct': ndvi_int_dry_pct_ts,
-                'SOS_doy': sos
+                'SOS_doy': sos,
+                't_SOS': np.arange(b) - sos
             }
         )
         return df_out
     elif (b_start is not None) and (b_end is not None):    
         # get days since peak IRG
         days_cum_peak = (b_end - 1) - cum_peak
+
+        # get days since SOS
+        days_sos = (b_end - 1) - sos
     
         # get final outputs at pasture scale
         ndvi = np.nanmean(ndvi_ts_mean[b_start:b_end])
@@ -133,7 +137,8 @@ def pheno_fq_metrics(ndvi_ts_mean, produce_ts=True, b_start=None, b_end=None):
             'iNDVI_dry': ndvi_int_dry.astype('float32'),
             'NDVI_rate': ndvi_rate.astype('float32'),
             'iNDVI_dry_pct': ndvi_int_dry_pct.astype('float32'),
-            'SOS_doy': sos
+            'SOS_doy': sos,
+            't_SOS': days_sos
         }
     else:
         print('ERROR: Set to output single value (produce_ts=False) but b_start and/or b_end are None. This is not allowed.')
