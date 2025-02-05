@@ -5,6 +5,8 @@ import numpy as np
 from sklearn.cluster import k_means
 from sklearn.preprocessing import StandardScaler
 from sklearn.cross_decomposition import PLSRegression
+from sklearn.decomposition import PCA
+from sklearn.metrics import r2_score
 
 # NOTES:
 
@@ -71,13 +73,23 @@ def load_df(inPATH, date_cols=[date_col]):
     df['sqrt_Biomass_kg_ha'] = np.sqrt(df['Biomass_kg_ha']) 
     
     df['Plot'] = df['Id'].apply(lambda x: '_'.join(x.split('_')[:-1]))
-
+    
+    y = df['sqrt_Biomass_kg_ha']
+    
     scaler = StandardScaler().fit(df[var_names])
     X_scaled = scaler.transform(df[var_names])
     
     pc = PLSRegression(n_components=len(var_names)//2)
+    #pc = PLSRegression(n_components=3)
     pc.fit(X_scaled, df['sqrt_Biomass_kg_ha'])
     scores = pc.transform(scaler.transform(df[var_names]))
+
+    naY = y
+    r2_scores = []
+
+    for j in range(scores.shape[1]):
+        Y_pred=np.dot(pc.x_scores_[:,j].reshape(-1,1), pc.y_loadings_[:,j].reshape(-1,1).T)*naY.std(axis=0, ddof=1)+naY.mean(axis=0)
+        r2_scores.append(round(r2_score(y, Y_pred),3))
     
     df_plot_scores = df.copy()
     for i in range(scores.shape[1]):
@@ -85,7 +97,7 @@ def load_df(inPATH, date_cols=[date_col]):
     
     df_plot_scores = df_plot_scores.groupby(['Plot', 'Date_mean'])[[x for x in df_plot_scores.columns if 'PC' in x]].mean()#.reset_index()
     
-    centroid, label, inertia = k_means(df_plot_scores, n_clusters=10)
+    centroid, label, inertia = k_means(df_plot_scores, n_clusters=5, n_init=50)
     
     df_plot_scores['Kmeans'] = label.astype('str')
     
