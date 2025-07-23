@@ -40,7 +40,7 @@ def pheno_fq_metrics(ndvi_ts_mean, produce_ts=True, b_start=None, b_end=None):
     date_thresh1 = next(x for x in np.where(ndvi_ts_mean > ndvi_thresh1)[0] if x > 30)
     dndvi_ts_mean = np.ones_like(ndvi_ts_mean) * np.nan
     dndvi_ts_mean[25:] = running_mean(np.diff(ndvi_ts_mean), 25)
-    dndvi_thresh2 = np.nanpercentile(dndvi_ts_mean[:date_thresh1], 35.0)
+    dndvi_thresh2 = np.nanpercentile(dndvi_ts_mean[:date_thresh1][dndvi_ts[:date_thresh1] > 0], 35.0)
     sos = np.where(dndvi_ts_mean[:date_thresh1] < dndvi_thresh2)[0][-1]
     ndvi_base = np.nanmean(ndvi_ts_mean[10:75])
 
