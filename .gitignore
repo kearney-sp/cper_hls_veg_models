@@ -137,6 +137,7 @@ dmypy.json
 # directories with large files
 data/raw_tmp/
 biomass/results/
+models/biomass/cper_bm_pls_boot/old/
 
 #debugging files
 *.out
